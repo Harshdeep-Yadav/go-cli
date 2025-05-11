@@ -1,0 +1,12 @@
+cat > .gitignore <<EOF
+# Binaries
+ghcli
+ghcli.exe
+ghcli-*
+*.tar.gz
+*.zip
+
+# Go stuff
+bin/
+vendor/
+EOF
